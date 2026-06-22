@@ -226,7 +226,13 @@ function Principal() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-[auto_1fr]">
           <div className="relative mx-auto">
-            <img src={principalImg} alt="Principal M. Giridhar" loading="lazy" className="h-80 w-64 rounded-3xl object-cover shadow-lift sm:h-96 sm:w-80" />
+            <div aria-label="Principal M. Giridhar" className="flex h-80 w-64 flex-col items-center justify-center rounded-3xl bg-gradient-to-br from-navy to-navy-deep p-8 text-center shadow-lift sm:h-96 sm:w-80">
+              <div className="flex h-32 w-32 items-center justify-center rounded-full bg-gold/15 ring-2 ring-gold/40">
+                <span className="font-display text-5xl font-bold text-gold">MG</span>
+              </div>
+              <div className="mt-6 font-display text-xl text-white">M. Giridhar</div>
+              <div className="mt-1 text-xs uppercase tracking-widest text-pista/80">Principal</div>
+            </div>
             <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 rounded-full bg-navy px-5 py-2 text-sm font-semibold text-white shadow-lift">
               Principal
             </div>
