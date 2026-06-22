@@ -12,8 +12,8 @@ import staffAsset from "@/assets/staff.jpeg.asset.json";
 import annualdayAsset from "@/assets/annualday.jpeg.asset.json";
 import tripAsset from "@/assets/trip.jpeg.asset.json";
 import independenceAsset from "@/assets/independence.jpeg.asset.json";
-import campusHero from "@/assets/campus-hero.jpg";
-import principalImg from "@/assets/principal.jpg";
+
+const campusHero = independenceAsset.url;
 
 export const Route = createFileRoute("/")({
   head: () => ({
