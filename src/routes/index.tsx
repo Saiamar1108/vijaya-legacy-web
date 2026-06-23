@@ -434,6 +434,7 @@ function Contact() {
             <h3 className="mt-4 font-display text-xl text-navy">Call Us</h3>
             <div className="mt-3 space-y-1.5 text-sm">
               <a href={`tel:${PHONE}`} className="flex items-center justify-between rounded-lg bg-pista px-3 py-2 font-semibold text-navy">+91 96035 99950 <span className="text-[10px] uppercase tracking-widest text-gold">Admissions</span></a>
+              <a href="tel:+919866059591" className="block rounded-lg px-3 py-2 text-navy hover:bg-pista/60">+91 98660 59591</a>
             </div>
           </div>
           <div className="rounded-2xl bg-white p-6 shadow-soft">
