@@ -473,7 +473,8 @@ function Footer() {
             <div className="font-display text-base text-gold">Contact</div>
             <ul className="mt-4 space-y-2 text-sm text-white/75">
               <li className="flex gap-2"><MapPin className="h-4 w-4 shrink-0 text-pista" /> Shapur Nagar, Quthbullapur, Hyderabad</li>
-              <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 text-pista" /> <a href={`tel:${PHONE}`}>+91 81217 84528</a></li>
+              <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 text-pista" /> <a href={`tel:${PHONE}`}>+91 96035 99950</a></li>
+              <li className="flex gap-2"><Phone className="h-4 w-4 shrink-0 text-pista" /> <a href="tel:+919866059591">+91 98660 59591</a></li>
               <li className="flex gap-2"><Mail className="h-4 w-4 shrink-0 text-pista" /> <a href="mailto:vijaya_high_school@yahoo.in" className="break-all">vijaya_high_school@yahoo.in</a></li>
             </ul>
           </div>
