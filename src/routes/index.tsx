@@ -28,8 +28,8 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const PHONE = "+918121784528";
-const WHATSAPP = "918121784528";
+const PHONE = "+919866059591";
+const WHATSAPP = "919866059591";
 
 const NAV = [
   { href: "#about", label: "About" },
@@ -37,7 +37,6 @@ const NAV = [
   { href: "#why", label: "Why Us" },
   { href: "#academics", label: "Academics" },
   { href: "#gallery", label: "Gallery" },
-  { href: "#facilities", label: "Facilities" },
   { href: "#admissions", label: "Admissions" },
   { href: "#contact", label: "Contact" },
 ];
@@ -355,34 +354,6 @@ function Gallery() {
   );
 }
 
-const FACILITIES = [
-  { i: Presentation, t: "Smart Classrooms" },
-  { i: Monitor, t: "Digital Boards" },
-  { i: FlaskConical, t: "Science Laboratories" },
-  { i: Brain, t: "Computer Labs" },
-  { i: Library, t: "Library" },
-  { i: Bus, t: "School Transport" },
-  { i: Trophy, t: "Playground" },
-  { i: Trees, t: "Clean Campus" },
-];
-
-function Facilities() {
-  return (
-    <section id="facilities" className="py-20 sm:py-28">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6">
-        <SectionHeading eyebrow="Facilities" title="A campus built for curiosity" />
-        <div className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {FACILITIES.map(({ i: Icon, t }) => (
-            <div key={t} className="rounded-2xl border bg-gradient-to-br from-white to-pista/40 p-6 shadow-soft transition hover:-translate-y-1 hover:shadow-lift">
-              <Icon className="h-8 w-8 text-navy" />
-              <div className="mt-4 font-display text-lg font-semibold text-navy">{t}</div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function Admissions() {
   const [submitted, setSubmitted] = useState(false);
@@ -543,7 +514,7 @@ function Home() {
       <Why />
       <Academics />
       <Gallery />
-      <Facilities />
+      
       <Admissions />
       <Contact />
       <Footer />
