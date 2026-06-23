@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 import logoAsset from "@/assets/logo.jpeg.asset.json";
-import founderAsset from "@/assets/founder.jpeg.asset.json";
+import founderAsset from "@/assets/founders.jpeg.asset.json";
 import staffAsset from "@/assets/staff.jpeg.asset.json";
 import annualdayAsset from "@/assets/annualday.jpeg.asset.json";
 import tripAsset from "@/assets/trip.jpeg.asset.json";
@@ -193,23 +193,23 @@ function Founder() {
       <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
         <div className="text-center">
           <div className="mb-3 text-xs font-semibold uppercase tracking-[0.25em] text-gold">In Loving Memory</div>
-          <h2 className="font-display text-3xl sm:text-4xl">Our Founder</h2>
+          <h2 className="font-display text-3xl sm:text-4xl">Our Founders</h2>
         </div>
         <div className="mt-14 grid items-center gap-12 lg:grid-cols-[auto_1fr]">
           <div className="relative mx-auto">
             <div className="absolute -inset-3 rounded-3xl bg-gradient-to-br from-gold/40 to-pista/30 blur-2xl" />
-            <img src={founderAsset.url} alt="Late Manapaati Narayana Garu, Founder" className="relative h-80 w-64 rounded-3xl object-cover shadow-lift ring-4 ring-gold/40 sm:h-96 sm:w-80" />
+            <img src={founderAsset.url} alt="Mr. and Mrs. Narayana and Nirmala Garu, Founders" className="relative h-80 w-72 rounded-3xl object-cover shadow-lift ring-4 ring-gold/40 sm:h-[28rem] sm:w-96" />
           </div>
           <div>
             <Quote className="h-10 w-10 text-gold" />
             <p className="mt-4 font-display text-2xl italic leading-snug text-pista sm:text-3xl">
-              "A visionary who laid the foundation for quality education and inspired generations."
+              "Visionaries who laid the foundation for quality education and inspired generations."
             </p>
             <div className="mt-8">
-              <div className="text-xs font-semibold uppercase tracking-widest text-gold">Founder</div>
-              <div className="mt-1 font-display text-2xl font-semibold">Late Manapaati Narayana Garu</div>
+              <div className="text-xs font-semibold uppercase tracking-widest text-gold">Founders</div>
+              <div className="mt-1 font-display text-2xl font-semibold">Mr. and Mrs. Narayana and Nirmala Garu</div>
               <p className="mt-4 max-w-2xl text-white/75">
-                His belief that knowledge transforms lives continues to guide every classroom, every teacher and every student of Vijaya High School today.
+                Their belief that knowledge transforms lives continues to guide every classroom, every teacher and every student of Vijaya High School today.
               </p>
             </div>
           </div>
