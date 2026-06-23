@@ -7,7 +7,7 @@ import {
 } from "lucide-react";
 
 import logoAsset from "@/assets/logo.jpeg.asset.json";
-import founderAsset from "@/assets/founder.jpeg.asset.json";
+import founderAsset from "@/assets/founders.jpeg.asset.json";
 import staffAsset from "@/assets/staff.jpeg.asset.json";
 import annualdayAsset from "@/assets/annualday.jpeg.asset.json";
 import tripAsset from "@/assets/trip.jpeg.asset.json";
