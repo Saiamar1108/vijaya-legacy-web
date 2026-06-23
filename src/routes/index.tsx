@@ -28,8 +28,8 @@ export const Route = createFileRoute("/")({
   component: Home,
 });
 
-const PHONE = "+918121784528";
-const WHATSAPP = "918121784528";
+const PHONE = "+919866059591";
+const WHATSAPP = "919866059591";
 
 const NAV = [
   { href: "#about", label: "About" },
@@ -37,7 +37,6 @@ const NAV = [
   { href: "#why", label: "Why Us" },
   { href: "#academics", label: "Academics" },
   { href: "#gallery", label: "Gallery" },
-  { href: "#facilities", label: "Facilities" },
   { href: "#admissions", label: "Admissions" },
   { href: "#contact", label: "Contact" },
 ];
