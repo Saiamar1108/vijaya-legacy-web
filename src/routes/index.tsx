@@ -514,7 +514,7 @@ function Home() {
       <Why />
       <Academics />
       <Gallery />
-      <Facilities />
+      
       <Admissions />
       <Contact />
       <Footer />
